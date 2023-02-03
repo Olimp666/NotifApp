@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
             val client = OkHttpClient()
 
             val request = Request.Builder()
-                .url("http://fefu-project.site/api/v1/user/getAllNotification?phone=sdf")
+                .url("http://fefu-project.site/api/v1/user/getAllNotification?phone=81231231212")
                 .build()
 
             var text = "[]"
