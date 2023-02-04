@@ -80,7 +80,7 @@ class MainActivity : ComponentActivity() {
 
                     }
                 }
-            }).wait()
+            })
             Thread.sleep(1000)
             val obj = Json.decodeFromString<MutableList<Notification>>(text) //obj пустой
 
